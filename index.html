@@ -605,7 +605,7 @@
             </div>
           </div>
           <div class="contact-form-wrapper">
-            <label class="contact-form-desc" for="user-email">Email></label>
+            <label class="contact-form-desc" for="user-email">Email</label>
             <div class="contact-form-input-wrapper">
               <input
                 class="contact-form-input"
@@ -620,7 +620,7 @@
               </svg>
             </div>
           </div>
-          <div class="contact-form-wrapper">
+          <div class="contact-form-wrapper contact-form-wrapper-textarea">
             <label class="contact-form-desc" for="user-comment">Comment</label>
             <!-- <span class="contact-form-desc-wrapper"> -->
               <textarea
@@ -640,16 +640,18 @@
               name="user-privacy"
               required
             />
-            <svg class="contact-form-own-checkmark" width="10" height="8">
-              <use
-                class="contact-form-checkmark-icon"
-                href="./images/icons.svg#accept"
-              ></use>
-            </svg>
-            <span class="checkbox-text">
+            <label class="checkbox-text" for="user-privacy">
               I accept the terms and conditions of the
+              <span class="contact-form-checkmark-wrapper">
+                <svg class="contact-form-own-checkmark" width="10" height="8">
+                  <use
+                    class="contact-form-checkmark-icon"
+                    href="./images/icons.svg#accept"
+                  ></use>
+                </svg>
+              </span>
               <a class="privacy-policy" href="">Privacy Policy</a>
-            </span>
+            </label>
           </div>
           <button type="submit" class="contact-form-submit">Send</button>
         </form>
