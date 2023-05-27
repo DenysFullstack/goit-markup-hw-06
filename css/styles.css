@@ -935,7 +935,7 @@ align-items: center; */
     opacity: 0;
 } */
 
-.contact-form-checkbox:checked+.contact-form-checkmark-wrapper {
+.contact-form-checkbox:checked+.checkbox-text>.contact-form-checkmark-wrapper {
     background-color: #404BBF;
     border: none;
     fill: #ffffff;
